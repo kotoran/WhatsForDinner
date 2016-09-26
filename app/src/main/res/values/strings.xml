@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">What\'s For Dinner?</string>
+    <string name="ingredients_prompt">Choose an ingredient</string>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="ingredients_list">
+        <item>None</item>
+        <item>Tomato</item>
+        <item>Egg</item>
+        <item>Flour</item>
+        <item>Chicken</item>
+        <item>Olive Oil</item>
+        <item>Yogurt</item>
+        <item>Beef</item>
+        <item>Potatoes</item>
+        <item>Pork</item>
+    </string-array>
+    <string-array name="units_list">
+        <item>None</item>
+        <item>Pieces</item>
+        <item>Pieces</item>
+        <item>lbs</item>
+        <item>lbs</item>
+        <item>ounces</item>
+        <item>ounces</item>
+        <item>lbs</item>
+        <item>pieces</item>
+        <item>legs</item>
+    </string-array>
+    <string name="app_information">This app helps you prepare for dinner!</string>
+    <string name="author_name">Andrew Ajemian</string>
+    <string name="version">v1.0</string>
+    <string name="help_url">www.strafeto.win</string>
+    <string name="source">www.github.com/kotoran</string>
+    <string name="copyright_information">Copyright Ajemian 2016</string>
+    <string name="add_picture">Add picture</string>
+</resources>

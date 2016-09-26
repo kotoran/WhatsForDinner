@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:id="@+id/outerLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/default_food_icon128">
+                </ImageView>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"
+                    android:scaleX=".5"
+                    android:scaleY=".5"
+                    android:src="@drawable/add_icon"
+                    android:id="@+id/addButtonPopup"
+                    android:background="@null">
+                </ImageButton>
+            </GridLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter a recipe name"
+                android:layout_margin="20px"
+                android:id="@+id/recipeNameEditText"></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please describe how to prepare the recipe here (Max. 250 characters)"
+                android:layout_margin="20px"
+                android:lines="4"
+                android:gravity="top"
+                android:id="@+id/recipeDirections"></EditText>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_one"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_two"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_eight"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_three"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_four"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_five"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_six"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_seven"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_nine"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ingredients_list"
+                android:id="@+id/ingredient_ten"
+                android:textSize="12pt"
+                android:layout_margin="10px"></Spinner>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:id="@+id/addButton"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

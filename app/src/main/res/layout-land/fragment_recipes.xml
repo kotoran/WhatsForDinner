@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recipeFragments">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <ImageButton android:src="@drawable/default_food_icon128"
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:layout_height="350px"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:background="@null"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13pt"
+                android:layout_marginTop="40px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="40px"
+                android:text="Select a recipe to view it\'s details!"
+                android:id="@+id/recipeNameInFragment"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="40px"
+                android:text="You can also view the directions to make it"
+                android:id="@+id/recipeDirectionsInFragment"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="40px"
+                android:text="as well as the ingredients it requires."
+                android:id="@+id/recipeIngredientsInFragment"
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

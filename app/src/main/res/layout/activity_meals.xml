@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Monday"
+        android:layout_margin="40px"
+        android:textSize="10pt"
+        android:gravity="center_horizontal"
+        android:id="@+id/dayOfTheWeek">
+    </TextView>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:text="Previous"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/prevButton">
+        </Button>
+        <Button
+            android:text="Next"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/nextButton">
+        </Button>
+    </LinearLayout>
+
+
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Breakfast"
+    android:layout_margin="20px"
+    android:textSize="8pt"
+    />
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:layout_margin="20px"
+        android:textSize="8pt"
+        android:id="@+id/breakfastSpinner"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Lunch"
+        android:layout_margin="20px"
+        android:textSize="8pt"
+        />
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="20px"
+        android:textSize="8pt"
+        android:id="@+id/lunchSpinner"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Dinner"
+        android:layout_margin="20px"
+        android:textSize="8pt"
+        />
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:layout_margin="20px"
+        android:textSize="8pt"
+        android:id="@+id/dinnerSpinner"/>
+
+    <Button
+        android:text="Nutrition Manager"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/activity_nutrition_manager"
+    />
+</LinearLayout>
